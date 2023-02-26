@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Uddesh</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero/Home section -->
+      <div id="home" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="./matrix-g422a9595d_1920.jpg" alt="">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h1>I Am a Web Developer</h1>
+                <button class="btn btn-primary">See more</button>
+            </div>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" data-aos="fade-right">
+                <h3>About</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, neque provident reprehenderit voluptatem dicta, voluptate, distinctio voluptates molestiae omnis obcaecati natus doloremque doloribus quo nemo. Cupiditate ex magni ipsum obcaecati!</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <img  class="img-fluid" src="./matrix-g422a9595d_1920.jpg" alt="">
+            </div>
+        </div>
+      </div>
+
+      <!-- Service Section -->
+      <div id="service" class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center mb-3">Services</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-white bg-primary mb-3" data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">
+                    <div class="card-header">Web Development</div>
+                    <div class="card-body">
+                      <h4 class="card-title">Web Development</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-dark bg-light mb-3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+                    <div class="card-header">Mobile Development</div>
+                    <div class="card-body">
+                      <h4 class="card-title">Mobile Development</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-primary mb-3" data-aos="fade-left" data-aos-delay="300">
+                    <div class="card-header">Desktop Development</div>
+                    <div class="card-body">
+                      <h4 class="card-title">Desktop Development</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Contact Us -->
+      <div id="conatct">
+        <div class="row">
+            <h1 class="text-center">Contact Us</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="card">
+                    <form>
+                        <input type="text" class="form-control my-3" placeholder="Enter Your Name">
+                        <input type="email" class="form-control my-3" placeholder="Enter Your Email">
+                        <input type="number" class="form-control my-3" placeholder="Enter Your Number">
+                        <textarea name=""  class="form-control my-3" placeholder="Enter Your Msg"></textarea>
+                        <div class="text-center">
+                            <input type="submit" value="send" class="btn btn-success">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+      </div>
+
+    <script src="./bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
